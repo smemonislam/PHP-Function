@@ -1,0 +1,19 @@
+Filter Positive Numbers: Create a callback function that filters an array to return only positive numbers.
+
+Filter Names by Length: Create a callback function that filters an array of names based on their length.
+
+Calculate Total: Create a callback function that calculates the total sum of values in an array.
+
+Convert to Uppercase: Create a callback function that converts each element of an array to uppercase.
+
+Custom Sorting: Create a callback function that sorts an array of strings based on a custom sorting criteria (e.g., string length).
+
+Array Mapping: Create a callback function that maps each element of an array to a new value (e.g., square each number in the array).
+
+Search for Item: Create a callback function that searches for a specific item in an array and returns its index if found.
+
+Modify Array Elements: Create a callback function that modifies each element of an array in a custom way (e.g., add a prefix).
+
+Array Reduction: Create a callback function that reduces an array to a single value (e.g., find the maximum or minimum element).
+
+Event Handling: Simulate a basic event handling system using callback functions. Create a function to register event listeners and trigger events.
