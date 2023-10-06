@@ -2,7 +2,8 @@
 
 /**
  * 01. 
- * Filter Positive Numbers: Create a callback function that filters an array to return only positive numbers.
+ * Filter Positive Numbers: Create a callback function that filters an array to return 
+ * only positive numbers.
  */
 
 $numbers = [-1, 3, -2, 5, 0, 4];

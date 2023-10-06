@@ -109,7 +109,8 @@ usort($strings, "sortByAuthorName");
  * square each number in the array). 
  */
 
-$square = [2, 5, 8, 10];
+// Solution 01 
+$numbers = [2, 5, 8, 10];
 function customMap($arr, $cb)
 {
     $newArray = [];
@@ -120,8 +121,38 @@ function customMap($arr, $cb)
     return $newArray;
 }
 
-$sq = customMap($square, function ($value) {
+$sq = customMap($numbers, function ($value) {
     return $value * $value;
 });
 
-print_r($sq);
+// print_r($sq);
+
+// Solution 02
+$cube = array_map(fn ($value) => $value * $value * $value, $numbers);
+//print_r($cube); // Use in arrow function
+
+
+/**
+ * 07. 
+ * Search for Item: Create a callback function that searches for a specific item in an array 
+ * and returns its index if found.
+ */
+
+// Solution 01
+$names = ["Emon", "Moni", "Raju", "Alim", "Mujahid"];
+function customSearch(int|string $search, array $array, callable $cb): int
+{
+    foreach ($array as $key => $item) {
+        if ($cb($item)) {
+            return $key;
+        }
+    }
+    return -1;
+}
+
+$search = "Mujahid";
+$searchValue = customSearch($search, $names, function ($value) use ($search) {
+    return $value == $search;
+});
+
+// echo $searchValue;
