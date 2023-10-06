@@ -5,7 +5,7 @@
  * have no specified name
  *      @ Can be stored in the variable
  *      @ Can be Returned in a function
- *      @ Can be pass in a function
+ *      @ Can be pass in a function argument
  * 
  * @ Syntax: 
  */
